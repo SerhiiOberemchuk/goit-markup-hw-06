@@ -38,7 +38,9 @@
     letter-spacing: 0.02em;
     color: var(--white-background-color);
   }
-
+  .advantages-name {
+    text-align: start;
+  }
   .advantages-list .item {
     width: calc((100% - 24px) / 2);
   }
@@ -95,6 +97,10 @@
   .portfolio .list-buttons {
     justify-content: center;
     margin-bottom: 64px;
+  }
+  .modal {
+    padding: 72px 24px 24px;
+    width: 408px;
   }
 }
 
