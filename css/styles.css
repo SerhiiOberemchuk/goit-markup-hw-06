@@ -597,12 +597,23 @@ ul {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people-office-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1440px;
   margin: 0 auto;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .title-main {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-mob-2x.jpg);
+  }
 }
 
 .work-main {
@@ -972,4 +983,29 @@ label.label-footer {
 .icon-footer-subs-btn {
   margin-left: 16px;
   fill: var(--white-background-color);
+}
+
+.mobile-social-item {
+  width: 40px;
+  height: 40px;
+}
+.mobile-social-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-brand-color);
+  fill: var(--light-color);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-social-link .icon {
+  fill: var(--light-color);
+}
+.mobile-social-link:hover,
+.mobile-social-link:focus {
+  background-color: var(--pressed-stat-color);
 }
