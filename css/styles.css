@@ -142,14 +142,22 @@ body {
   letter-spacing: 0.02em;
   font-style: normal;
 }
-.mob-address-link:hover,
-.mob-address-link:focus {
-  color: var(--primary-brand-color);
+.mob-address-link-tel {
+  color: var(--text-color);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  font-style: normal;
+}
+.mob-address-link:hover,
+.mob-address-link:focus {
+  color: var(--primary-brand-color);
+}
+.mob-address-link-tel:hover,
+.mob-address-link-tel:focus {
+  color: var(--primary-brand-color);
 }
 
 .mob-address-list {
