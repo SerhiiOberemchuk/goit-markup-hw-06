@@ -34,7 +34,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.03em;
-  margin-right: 76px;
 }
 
 .link {
@@ -143,21 +142,16 @@ body {
   font-style: normal;
 }
 .mob-address-link-tel {
-  color: var(--text-color);
-  font-size: 36px;
+  color: var(--primary-brand-color);
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   font-style: normal;
 }
-.mob-address-link:hover,
-.mob-address-link:focus {
-  color: var(--primary-brand-color);
-}
-.mob-address-link-tel:hover,
-.mob-address-link-tel:focus {
-  color: var(--primary-brand-color);
+.mobcurrent {
+  color: var(--pressed-stat-color);
 }
 .mob-address-list {
   display: flex;
@@ -167,7 +161,9 @@ body {
 .mobile-social-list {
   margin-top: 48px;
   display: flex;
-  gap: 56px;
+  /* gap: 56px; */
+  max-width: 328px;
+  justify-content: space-between;
 }
 
 /* --- Main --- */
@@ -734,7 +730,7 @@ ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 392px;
+  max-width: 392px;
   min-height: 584px;
   border-radius: 4px;
   background: var(--modal-background-color);
@@ -855,9 +851,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-/* .form-field-checkbox {
-  margin-bottom: 24px;
-} */
+
 .modal-checkbox {
   width: 16px;
   height: 16px;

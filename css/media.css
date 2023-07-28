@@ -2,6 +2,9 @@
   .container {
     max-width: 428px;
   }
+  .mob-address-link-tel {
+    font-size: 36px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -15,6 +18,9 @@
     display: flex;
     gap: 40px;
     padding: 24px 0;
+  }
+  .logo {
+    margin-right: 76px;
   }
   .address .list {
     display: flex;
@@ -63,10 +69,6 @@
   .advantages-list .item {
     width: calc((100% - 24px) / 2);
   }
-  .team.container {
-    padding-left: 108px;
-    padding-right: 108px;
-  }
   .team-list {
     row-gap: 64px;
   }
@@ -81,8 +83,7 @@
     padding-right: 108px;
   }
   .footer-container.container {
-    padding-left: 108px;
-    padding-right: 108px;
+    max-width: 582px;
     justify-content: flex-start;
   }
   .footer-sabs-box {
@@ -201,8 +202,13 @@
     margin-left: auto;
   }
   .footer-container.container {
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1158px;
+  }
+  .footer-container {
+    column-gap: 0;
+  }
+  .footer-logo-box {
+    margin-right: 120px;
   }
   .portfolio-main {
     padding: 100px 0 120px 0;
