@@ -1007,3 +1007,7 @@ label.label-footer {
 .mobile-social-link:focus {
   background-color: var(--pressed-stat-color);
 }
+
+.picture-portfolio {
+  width: 100%;
+}
