@@ -69,6 +69,9 @@
   .advantages-list .item {
     width: calc((100% - 24px) / 2);
   }
+  .team.container {
+    max-width: 584px;
+  }
   .team-list {
     row-gap: 64px;
   }
@@ -79,11 +82,14 @@
     width: calc((100% - 2 * 24px) / 3);
   }
   .customer-box {
-    padding-left: 108px;
-    padding-right: 108px;
+    max-width: 584px;
+    /* padding-left: 16px;
+    padding-right: 16px; */
   }
   .footer-container.container {
-    max-width: 582px;
+    max-width: 584px;
+    padding-left: 16px;
+    padding-right: 16px;
     justify-content: flex-start;
   }
   .footer-sabs-box {
@@ -182,6 +188,7 @@
     padding: 120px 0;
   }
   .team.container {
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
   }
